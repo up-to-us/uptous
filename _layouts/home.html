@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+    {% include header.html %}
+    <body>
+      <div class="container">
+        <div class="lines">
+          {% for issue in site.issues %}
+          <div class="row">
+            <div class="col">
+              <img src="{{issue.img | relative_url }}" class="mx-auto d-block" alt="{{issue.title}}">
+              <h2>{{issue.title}}</h2>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+
+        <div id="footerbar" class="col-12">
+          {% include footer.html %}
+        </div>
+      </div>
+  </body>
+</html>
