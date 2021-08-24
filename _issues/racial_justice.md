@@ -1,6 +1,7 @@
 ---
 layout: issue
 title:  "Houselessness is a racial justice issue"
+img: /assets/images/img1.jpg
 ---
 Insufficient income and lack of affordable housing are the primary causes of houselessness.
 

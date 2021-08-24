@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "Houselessness is a climate justice issue"
-img: /assets/images/sample.jpg
+img: /assets/images/img1.jpg
 ---
 It’s simple: without a house, severe climate events are exponentially more deadly.
 When the heat rises, sleeping on the sidewalk can be lethal.

@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "Houselessness is a low income family issue"
-img: /assets/images/sample.jpg
+img: /assets/images/img1.jpg
 ---
 In 2020, the number of unhoused families in LA increased by 47%. That’s 47% more moms, dads, and kids.
 

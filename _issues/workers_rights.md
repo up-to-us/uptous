@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "Houselessness is a Workers’ Rights issue"
-img: /assets/images/sample.jpg
+img: /assets/images/img1.jpg
 ---
 There’s not one state where people working at minimum wage full-time can afford fair-market rent.
 

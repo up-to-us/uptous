@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "Houselessness is a child protection issue"
-img: /assets/images/sample.jpg
+img: /assets/images/img1.jpg
 ---
 Right now, there are thousands of unaccompanied youth living on the streets of LA.
 
