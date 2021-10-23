@@ -32,7 +32,7 @@ collections:
   issues:
     output: true
 
- url: "https://jasoncorum.github.io/uptous.github.io"
+ url: https://jasoncorum.github.io/uptous.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
