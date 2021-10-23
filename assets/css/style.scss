@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: Silom;
+    font-family: ApfelGrotezk;
     src: url(fonts/ApfelGrotezk-Regular.otf);
 }
 @font-face {
@@ -31,7 +31,6 @@ h2 {
 
 .final {
   color: #000;
-  margin: 0 15px;
 }
 
 p, a {
@@ -47,6 +46,7 @@ p, a {
 .title {
   border-bottom: 4px solid rgb(245,239,72);
   margin: 2em 0;
+  padding: 0;
 }
 
 .card {
@@ -58,12 +58,20 @@ p, a {
 .card-header {
   background-color: transparent;
   border: none;
+  padding: 12px 0;
 }
 
 .card-body {
   float: right;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .issue {
   float: right;
+}
+
+.footer-text {
+  margin: 15px 0;
+  font-size: 1.5em;
 }

@@ -5,12 +5,12 @@
   </head>
     <body class="home-bg">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-10 title">
             <h1>Houselessness is</h1>
           </div>
 
-          <div class="accordion col-sm-10" id="accordionExample">
+          <div class="accordion col-sm-10" id="accordionIssues">
 
           {% for issue in site.issues %}
             <div class="card">
@@ -22,7 +22,7 @@
                 {{issue.title}}</h2>
               </div>
 
-              <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordionExample">
+              <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordionIssues">
                 <div class="card-body col-sm-8">
                   {{issue.content}}
                 </div>
@@ -32,7 +32,9 @@
         </div>
 
         <div class="col-sm-10">
-          <h2 class="final">a solvable issue.</h2>
+          <div class="card-header">
+            <h2 class="final">a solvable issue</h2>
+          </div>
         </div>
         <div id="footerbar" class="col-12">
           {% include footer.html %}
