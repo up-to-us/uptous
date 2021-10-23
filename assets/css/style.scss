@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: ApfelGrotezk;
+    font-family: Silom;
     src: url(fonts/ApfelGrotezk-Regular.otf);
 }
 @font-face {
@@ -17,26 +17,26 @@ body {
   font-family: 'ApfelGrotezk', sans-serif;
   color: #00304f;
 }
-h1, h2, h3, h4 {
-  font-family: 'Silom', sans-serif;
-}
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   color: #000;
 }
 
 h2 {
+  color: rgb(245,239,72);
+  float: right;
+  margin: 0;
+}
+
+.final {
   color: #000;
+  margin: 0 15px;
 }
 
 p, a {
   font-family: ApfelGrotezk;
-  font-size: 1.25em;
-}
-
-.home-col {
-  padding: 2em;
+  font-size: 1.5em;
 }
 
 .home-bg {
@@ -44,74 +44,26 @@ p, a {
   background-size: cover;
 }
 
-.home-img {
-  max-width: 576px
+.title {
+  border-bottom: 4px solid rgb(245,239,72);
+  margin: 2em 0;
 }
 
-.navbar-custom {
-  margin: 0;
-  background-color: #000;
-  padding: 5px 15px;
+.card {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
 }
 
-.navbar {
-  margin: 0;
-  h1 {
-    margin: 0;
-    color: #fef100;
-    font-weight: bold;
-    font-size: 2em;
-  }
-  h2 {
-    margin: 0;
-    color: #fef100;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-  }
+.card-header {
+  background-color: transparent;
+  border: none;
 }
 
-.navbar-brand {
-  margin: 0 50px;
+.card-body {
+  float: right;
 }
 
-.nav-item {
-  margin: 0 5px;
-  a {
-    font-size: 1.5em;
-  }
-}
-
-.donate {
-  background-color: #fff;
-  border-radius: .25rem;
-  padding: 0px 5px;
-  max-width: 128px;
-  text-align: center;
-  a {
-    color: #000 !important;
-  }
-  &:hover {
-    background-color: #fef100 !important;
-  }
-}
-
-a.donate-link {
-  &:hover {
-    color: #000 !important;
-  }
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-  &:hover {
-    font-weight: normal;
-    color: #fef100
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .navbar-nav {
-    padding: 0 50px;
-  }
+.issue {
+  float: right;
 }

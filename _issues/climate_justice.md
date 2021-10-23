@@ -1,6 +1,6 @@
 ---
 layout: issue
-title:  "Houselessness is a climate justice issue"
+title:  "a climate justice issue"
 img: /assets/images/img1.jpg
 ---
 It’s simple: without a house, severe climate events are exponentially more deadly.

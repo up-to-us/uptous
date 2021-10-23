@@ -1,6 +1,6 @@
 ---
 layout: issue
-title:  "Houselessness is a Human Rights Issue"
+title:  "a Human Rights Issue"
 img: /assets/images/img1.jpg
 ---
 There’s nothing normal about this.

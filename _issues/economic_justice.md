@@ -1,6 +1,6 @@
 ---
 layout: issue
-title:  "Houselessness is an economic justice issue"
+title:  "an economic justice issue"
 img: /assets/images/img1.jpg
 
 ---

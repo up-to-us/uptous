@@ -1,6 +1,6 @@
 ---
 layout: issue
-title:  "Houselessness is a public policy issue"
+title:  "a public policy issue"
 img: /assets/images/img1.jpg
 ---
 Policing the homeless can cost 2 to 3 times more than building permanent housing.

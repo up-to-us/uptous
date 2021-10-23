@@ -1,6 +1,6 @@
 ---
 layout: issue
-title:  "Houselessness is a gender justice issue"
+title:  "a gender justice issue"
 img: /assets/images/img1.jpg
 ---
 Over 92% of unhoused mothers have experienced severe physical or sexual abuse.

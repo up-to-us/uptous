@@ -3,29 +3,37 @@
   <head>
     {% include head.html %}
   </head>
-    {% include header.html %}
-    <body>
-      <div class="container-fluid home-bg">
-        {% for issue in site.issues %}
-        <div class="row justify-content-md-center">
-          {% capture issue_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-          {% if issue_cycle == 'odd' %}
-            <div class="col">
-              <h2>{{issue.title}}</h2>
+    <body class="home-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 title">
+            <h1>Houselessness is</h1>
+          </div>
+
+          <div class="accordion col-sm-10" id="accordionExample">
+
+          {% for issue in site.issues %}
+            <div class="card">
+              <div class="card-header" id="heading-{{ forloop.index }}">
+                <h2 data-toggle="collapse"
+                    data-target="#collapse-{{ forloop.index }}"
+                    aria-expanded="true"
+                    aria-controls="collapse-{{ forloop.index }}">
+                {{issue.title}}</h2>
+              </div>
+
+              <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordionExample">
+                <div class="card-body col-sm-8">
+                  {{issue.content}}
+                </div>
+              </div>
             </div>
-            <div class="col-6">
-              <img src="{{issue.img | relative_url }}" class="mx-auto d-block img-fluid" alt="{{issue.title}}">
-            </div>
-          {% else %}
-            <div class="col-6 home-col">
-              <img src="{{issue.img | relative_url }}" class="mx-auto d-block img-fluid" alt="{{issue.title}}">
-            </div>
-            <div class="col">
-              <h2>{{issue.title}}</h2>
-            </div>
-          {% endif %}
+          {% endfor %}
         </div>
-        {% endfor %}
+
+        <div class="col-sm-10">
+          <h2 class="final">a solvable issue.</h2>
+        </div>
         <div id="footerbar" class="col-12">
           {% include footer.html %}
         </div>
