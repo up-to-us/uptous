@@ -19,7 +19,7 @@
                     data-target="#collapse-{{ forloop.index }}"
                     aria-expanded="true"
                     aria-controls="collapse-{{ forloop.index }}">
-                {{issue.title}}</h2>
+                    {{issue.title}} <i class='fas fa-angle-down' style='font-size: 24px;'></i></h2>
               </div>
 
               <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordionIssues">
@@ -33,7 +33,7 @@
 
         <div class="col-sm-10">
           <div class="card-header">
-            <h2 class="final">a solvable issue</h2>
+            <h2 class="final">a solvable issue.</h2>
           </div>
         </div>
         <div id="footerbar" class="col-12">
