@@ -11,6 +11,6 @@ order: 4
 
 Here are a few:
 
-- EVERYONE IN (https://everyoneinla.org/)
-- PEOPLE’S BUDGET LA(https://peoplesbudgetla.com/)
+- [EVERYONE IN](https://everyoneinla.org/)
+- [PEOPLE’S BUDGET LA](https://peoplesbudgetla.com/)
 - [ACLU of SOUTHERN CALIFORNIA](https://www.aclusocal.org/en/issues/economic-justice)
