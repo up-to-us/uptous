@@ -11,8 +11,8 @@
           </div>
 
           <div class="accordion col-sm-10" id="accordionIssues">
-
-          {% for issue in site.issues %}
+          {% assign sorted_issues = site.issues | sort:"order" %}
+          {% for issue in sorted_issues %}
             <div class="card">
               <div class="card-header" id="heading-{{ forloop.index }}">
                 <h2 data-toggle="collapse"
@@ -31,11 +31,6 @@
           {% endfor %}
         </div>
 
-        <div class="col-sm-10">
-          <div class="card-header">
-            <h2 class="final">a solvable issue.</h2>
-          </div>
-        </div>
         <div id="footerbar" class="col-12">
           {% include footer.html %}
         </div>

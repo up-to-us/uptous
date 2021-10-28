@@ -29,13 +29,18 @@ h2 {
   margin: 0;
 }
 
-.final {
-  color: #000;
+p {
+  font-family: ApfelGrotezk;
+  font-size: 18px;
 }
 
-p, a {
+a {
   font-family: ApfelGrotezk;
-  font-size: 1.5em;
+  color: rgb(245,239,72);
+  font-size: 18px;
+  &:hover {
+    font-weight: normal;
+  }
 }
 
 .home-bg {
@@ -63,8 +68,6 @@ p, a {
 
 .card-body {
   float: right;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .issue {

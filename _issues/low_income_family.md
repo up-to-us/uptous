@@ -1,20 +1,17 @@
 ---
 layout: issue
 title:  "a low income family issue"
-img: /assets/images/img1.jpg
+order: 8
 ---
-In 2020, the number of unhoused families in LA increased by 47%. That’s 47% more moms, dads, and kids.
+<strong>MYTH</strong>: Unhoused people are at odds with hard working low income families
 
-42% of children in homeless families are 6 or under.
-53% of homeless moms don’t have a high school diploma
+<strong>TRUTH</strong>: Homeless families are low income families. In fact, millions of families across the country are 1-2 paychecks away from falling into houselessness. In 2020 alone, the number of unhoused families in LA increased by 47%. That’s 47% more moms, dads, and kids. The majority of those kids are under 6 years old. The trauma of living on the street at that age will have lasting effects on their abilities to thrive.
 
-People are choosing between rent, and food for their families.
-40% of low income households have no savings.
+<strong>SOLUTION</strong>: We must stop perpetuating this narrative that unhoused people are all violent, drug addicted, mentally ill men. That’s simply not true. That’s not to say that these things don’t contribute to houselessness, they can, but just as often unresolved trauma, poverty, addiction, and mental health issues are made worse by the experience of being unhoused. Families who fall into houselessness do so because they don’t have the adequate resources they need to thrive. Sometimes that’s because lack of a college degree makes gainful employment hard to find, sometimes it’s a sudden debilitating medical issue that creates unsustainable medical debt. Whatever the cause, once people fall into that situation it is exponentially more difficult to get out. Support organizations and proposals that support low income families. Medicare for all, universal child care, child tax credits, minimum wage increases, universal basic income, these are all proposals that can go a long way to keeping families off the streets. There are many organizations that work with unhoused families.
 
-In 2020, the number of unhoused angelenos in families increased to 12,817. That’s 12,817 unhoused moms, dads, and kids.
+Here are a few:
 
-*In 2020, the number of unhoused families increased 45.7% to 12,817 total people.
-
-Millions of families across the country are 1 - 2 paychecks, or one major life incident away from becoming unhoused.
-
-*LAHSA
+- [LA FAMILY HOUSING](https://lafh.org/causes-solutions)
+- [UPWARD BOUND HOUSE](https://upwardboundhouse.org/family-homelessness/understanding-the-issue/)
+- [OUR COMMUNITY LA](https://oclawin.org/)
+- [UNITED WAY OF GREATER LOS ANGELES](https://www.unitedwayla.org/en/)
