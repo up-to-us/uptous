@@ -24,9 +24,8 @@ h1 {
 }
 
 h2 {
-  color: rgb(245,239,72);
-  float: right;
-  margin: 0;
+  font-size: 3.5em;
+  color: #000;
 }
 
 p {
@@ -54,6 +53,13 @@ a {
   padding: 0;
 }
 
+.about {
+  border-bottom: 4px solid rgb(245,239,72);
+  margin: 2em 0;
+  padding: 0;
+  text-align: right;
+}
+
 .card {
   border: none;
   border-radius: 0;
@@ -71,6 +77,10 @@ a {
 }
 
 .issue {
+  float: right;
+}
+
+.about-body {
   float: right;
 }
 
