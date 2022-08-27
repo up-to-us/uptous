@@ -9,9 +9,3 @@ order: 2
 
 
 <strong>HOW TO GET INVOLVED</strong>: There are ways to help! Right now the state of California is expanding their pilot program of Universal Basic Income to foster children across the state. So far [the program](https://imprintnews.org/foster-care/california-approves-first-state-guaranteed-income-for-foster-youth/56957) has been a resounding success. Voice your support. Tell your friends. Get involved with or support local organizations dedicated to getting children off the street.
-
-Here are a few:
-
-- [WE LIFT LA](https://weliftla.org/)
-- [OUR COMMUNITY LA](https://oclawin.org/youth-homelessness/)
-- [LA MISSION](https://losangelesmission.org/reuniting-homeless-moms-with-their-children/)

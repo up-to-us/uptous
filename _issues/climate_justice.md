@@ -10,9 +10,3 @@ order: 3
 [Locally](https://www.climaterealityproject.org/blog/homelessness-and-climate-crisis), as the heat rises, droughts intensify, and wildfires grow, living on the street will become deadly.
 
 <strong>HOW TO GET INVOLVED</strong>: We must adopt a view of climate change that recognizes the disproportionate effects it has on specific groups, and then devise solutions that center those most affected. There are many groups focused on the climate crisis and how it impacts the unhoused. But we also need to ensure that our communities are not exploited by irresponsible corporations that have no accountability for their environmental impacts.
-
-Here are a few:
-
-- [CENTER ON RACE, POVERTY &amp; THE ENVIRONMENT](https://crpe-ej.org/)
-- [CALIFORNIA ENVIRONMENTAL JUSTICE ALLIANCE](https://caleja.org/what-we-do/climatejustice/)
-- [NAACP](https://naacp.org/know-issues/environmental-climate-justice)
