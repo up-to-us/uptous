@@ -9,12 +9,3 @@ order: 1
 
 <strong>HOW TO GET INVOLVED</strong>: There are many ways to help unhoused people maintain a sense of dignity. Sometimes simply befriending someone, learning their name, checking in with them and letting them know you see them is enough. But, there are a number of community led efforts to help unhoused people get access to the things they need while they are on the streets.
 
-Here are a few:
-
-- [STREETWATCH](https://streetwatchla.com/)
-- [LA CAN](https://cangress.org/)
-- [J-TOWN](https://jtownactionandsolidarity.com/)
-- [HOME-Y MADE MEALS](https://www.homeymademeals.com/)
-- [GROUND GAME LA](https://www.groundgamela.org/our-mission)
-- [BAGS AND GRACE](https://www.bagsandgrace.com/)
-
