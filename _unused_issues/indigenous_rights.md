@@ -1,0 +1,8 @@
+---
+layout: issue
+title: "an indigenous rights issue"
+order: 9
+---
+<strong>MYTH</strong>: The cultural genocide against indigenous peoples is in the past. They should get over it. Besides, we conquered them, “might makes right,” after all.
+
+<strong>RESPONSE</strong>: Indigenous peoples are unhoused at significantly higher rates than their white counterparts. This can be [directly linked to the historical and generational trauma](https://www.homelesshub.ca/solutions/priority-populations/indigenous-peoples) associated with genocide and forced assimilation into euro-centric American culture. In American schools, this is often taught as something tied to distant history. But the reality is, [mass graves are currently being dug up at residential schools](https://www.culturalsurvival.org/news/new-revelations-child-graves-residential-schools-lays-bare-history-genocide?gclid=CjwKCAjwtcCVBhA0EiwAT1fY7wFrxryhW4hTz__z4-lbXQvqm8s5gEw_f31gm8F11vO_SSgILxuWiRoCR3UQAvD_BwE). Indigenous children who were forced into these schools and stripped of their language and identity are still alive today. [Indigenous women go missing and are murdered](https://www.culturalsurvival.org/news/addressing-epidemic-missing-murdered-indigenous-women-and-girls?gclid=CjwKCAjwtcCVBhA0EiwAT1fY79jL6wIIC3D37mv74Zdx5FQ21D3Kx4iX5x2K8oBMV21ZCZNetP2H_xoC4z0QAvD_BwE) at much higher rates than any other group because they have been made invisible in our society. The US colonial project is ongoing.
