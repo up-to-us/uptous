@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body class="home-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-10 about">
+          <h3>Contact Up to US</h3>
+        </div>
+        <form
+          action="https://getform.io/f/2346a297-cb1c-4544-8730-869628cdcabe"
+          method="post"
+          id="contact-us-form"
+        >
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputName"
+                placeholder="Jane Doe"
+                name="name"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                aria-describedby="emailHelp"
+                placeholder="jane@gmail.com"
+                name="email"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputMessage">Message</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="inputMessage"
+              placeholder=""
+              name="message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn up-to-us-submit btn-block">
+            Send
+          </button>
+        </form>
+        <div class="mb-6 hide contact-us-success" id="contact-us-success">
+          <div class="card">
+            <div
+              style="
+                border-radius: 200px;
+                height: 200px;
+                width: 200px;
+                background: #155a25;
+                margin: 20px auto;
+              "
+            >
+              <i class="checkmark">✓</i>
+            </div>
+            <p>
+              Thank you for reaching out!<br />
+              We'll be in touch shortly!
+            </p>
+          </div>
+        </div>
+        <div class="mb-6 hide contact-us-failure" id="contact-us-failure">
+          <div class="card">
+            <div
+              style="
+                border-radius: 200px;
+                height: 200px;
+                width: 200px;
+                background: #dc3545;
+                margin: 20px auto;
+              "
+            >
+              <i class="exclaimation-mark">!</i>
+            </div>
+            <h1>Whoops...</h1>
+            <p>
+              Something went wrong sending your message.<br />
+              We're sorry for the trouble. Please try again.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="footer">
+      <div class="row">
+        <div id="footerbar" class="col-12">{% include menu.html %}</div>
+        <div id="footerbar" class="col-12">{% include footer.html %}</div>
+      </div>
+    </div>
+  </body>
+</html>

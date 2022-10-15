@@ -4,17 +4,17 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: ApfelGrotezk;
-    src: url(fonts/ApfelGrotezk-Regular.otf);
+  font-family: ApfelGrotezk;
+  src: url(fonts/ApfelGrotezk-Regular.otf);
 }
 @font-face {
-    font-family: Silom;
-    src: url(fonts/SilomBol.ttf);
+  font-family: Silom;
+  src: url(fonts/SilomBol.ttf);
 }
 
 body {
   padding: 0;
-  font-family: 'ApfelGrotezk', sans-serif;
+  font-family: "ApfelGrotezk", sans-serif;
   color: #00304f;
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(245,239,72);
+  color: rgb(245, 239, 72);
   float: right;
   margin: 0;
 }
@@ -41,7 +41,7 @@ p {
 
 a {
   font-family: ApfelGrotezk;
-  color: rgb(245,239,72);
+  color: rgb(245, 239, 72);
   font-size: 18px;
   &:hover {
     font-weight: normal;
@@ -49,18 +49,18 @@ a {
 }
 
 .home-bg {
-  background-image: url('https://up-to-us.info/assets/images/background.jpg');
+  background-image: url("https://up-to-us.info/assets/images/background.jpg");
   background-size: cover;
 }
 
 .title {
-  border-bottom: 4px solid rgb(245,239,72);
+  border-bottom: 4px solid rgb(245, 239, 72);
   margin: 2em 0;
   padding: 0;
 }
 
 .about {
-  border-bottom: 4px solid rgb(245,239,72);
+  border-bottom: 4px solid rgb(245, 239, 72);
   margin: 2em 0;
   padding: 0;
   text-align: left;
@@ -93,4 +93,133 @@ a {
 .footer-text {
   margin: 15px 0;
   font-size: 1.5em;
+  text-align: center;
+}
+
+#footerbar {
+  margin-top: 2em;
+}
+
+#footerbar .navbar-collapse {
+  justify-content: space-evenly;
+}
+#footerbar .navbar-nav {
+  column-gap: 3em;
+}
+
+.social {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.social img {
+  height: 2.5em;
+  margin-left: 1em;
+}
+
+.contact-us-success,
+.contact-us-failure {
+  text-align: center;
+}
+.contact-us-success h1,
+.contact-us-failure h1 {
+  color: #155a25;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-us-failure h1 {
+  color: #791313;
+}
+.contact-us-success p,
+.contact-us-failure p {
+  color: #404f5e;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+.contact-us-success i,
+.contact-us-failure i {
+  color: #9abc66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+
+.contact-us-failure i {
+  color: #791313;
+}
+
+.contact-us-success .card,
+.contact-us-failure .card {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.up-to-us-submit {
+  background-color: #f5ef48;
+  border-color: #b6b11f;
+  border-radius: 0.5em;
+}
+
+.form-control {
+  background-color: #f3f3f3;
+  border-radius: 0.5em;
+}
+
+textarea {
+  height: 12em;
+}
+
+#contact-us-form {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #contact-us-form {
+    width: 80%;
+  }
+}
+
+.about-body {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    max-width: 1140px;
+  }
+}
+
+.footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

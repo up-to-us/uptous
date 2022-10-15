@@ -1,71 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     {% include head.html %}
   </head>
-    <body class="home-bg">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-sm-10 title">
-            <h1>Houselessness is</h1>
-          </div>
+  <body class="home-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-10 title">
+          <h1>Houselessness is</h1>
+        </div>
 
-          <div class="accordion col-sm-10" id="accordionIssues">
-          {% assign sorted_issues = site.issues | sort:"order" %}
-          {% for issue in sorted_issues %}
-            <div class="card">
-              <div class="card-header" id="heading-{{ forloop.index }}">
-                <h2 data-toggle="collapse"
-                    data-target="#collapse-{{ forloop.index }}"
-                    aria-expanded="true"
-                    aria-controls="collapse-{{ forloop.index }}">
-                    {{issue.title}} <i class='fas fa-angle-down' style='font-size: 24px;'></i></h2>
-              </div>
-
-              <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordionIssues">
-                <div class="card-body col-sm-8">
-                  {{issue.content}}
-                </div>
-              </div>
+        <div class="accordion col-sm-10" id="accordionIssues">
+          {% assign sorted_issues = site.issues | sort:"order" %} {% for issue
+          in sorted_issues %}
+          <div class="card">
+            <div class="card-header" id="heading-{{ forloop.index }}">
+              <h2
+                data-toggle="collapse"
+                data-target="#collapse-{{ forloop.index }}"
+                aria-expanded="true"
+                aria-controls="collapse-{{ forloop.index }}"
+              >
+                {{issue.title}}
+                <i class="fas fa-angle-down" style="font-size: 24px"></i>
+              </h2>
             </div>
+
+            <div
+              id="collapse-{{ forloop.index }}"
+              class="collapse"
+              aria-labelledby="heading-{{ forloop.index }}"
+              data-parent="#accordionIssues"
+            >
+              <div class="card-body col-sm-8">{{issue.content}}</div>
+            </div>
+          </div>
           {% endfor %}
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-10 about">
-          <h3>About</h3>
-        </div>
-        <div class="col-sm-10 about-body">
-          <p>
-            The UP to US Campaign was spearheaded by writer, filmmaker and activist Neil Blakemore after witnessing his neighbors in the Silver Lake neighborhood of Los Angeles dox and dehumanize an unhoused woman in the midst of a mental health crisis. This experience made it abundantly clear to him that he needed to use his voice and position to speak up on behalf of people who cannot speak for themselves. Since January 2021, he has been meeting with other artists, activists, organizations, neighborhood councils, and city council members to develop this campaign to challenge the ways people think about houselessness with the hope that if he can shift the ways people think even slightly, he can open them up to ideas and solutions they may previously have rejected outright.
-          </p>
-          <p>
-            Neil is driven by the belief that houselessness is a crisis manufactured by many complex factors, but that it has no place in the wealthiest country in human history. We can end this crisis, but it's #UPtoUS.
-          </p>
-          <p>
-            In the course of creating this campaign, Neil has enlisted the help of graphic designer Hannah Tyler and software engineer Jason Corum both of whom have generously donated their skills to the project.
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-10 about">
-          <h3>Board</h3>
-        </div>
-        <div class="col-sm-10 about-body">
-          <p>
-            We are seeking to grow our board! We are especially looking for people who have worked with the unhoused or have personal experience being unhoused.
-          </p>
-          <p>
-            Neil Blakemore - President<br>
-            Kimberly Christenson - Treasurer<br>
-            Adam Mervis - Secretary
-          </p>
-        </div>
-      </div>
+    </div>
+    <div class="footer">
       <div class="row">
-        <div id="footerbar" class="col-12">
-          {% include footer.html %}
-        </div>
+        <div id="footerbar" class="col-12">{% include menu.html %}</div>
+        <div id="footerbar" class="col-12">{% include footer.html %}</div>
       </div>
+    </div>
   </body>
 </html>
