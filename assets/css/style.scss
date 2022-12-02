@@ -118,6 +118,16 @@ a {
   margin-left: 1em;
 }
 
+.social [type=image] {
+  height: 3.2em;
+  margin-left: 1em;
+  vertical-align: top;
+}
+
+.social form {
+  display: inline;
+}
+
 .contact-us-success,
 .contact-us-failure {
   text-align: center;
