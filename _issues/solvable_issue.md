@@ -1,7 +1,7 @@
 ---
 layout: issue
-title:  "solvable issue"
-order: 12
+title:  "a solvable issue"
+order: 13
 ---
 Houselessness can often seem like an intractable, natural part of life. It’s not. While the [current crisis](https://www.latimes.com/opinion/story/2021-03-23/echo-park-homeless-colony-gentrification-housing) has been [40+ years in the making](https://www.ncbi.nlm.nih.gov/books/NBK519584/), the conditions that create a permanent underclass of people are rooted in [capitalism](http://www.ifm-sei.org/files/up/capitalism_vap.pdf) and its relentless pursuit of growth at all costs. The twin legacies of colonialism and slavery, and the violence these two institutions have perpetrated on our land and our bodies- especially the bodies of black, brown, and indiginous people- are still wreaking havoc on our public life today. [Gentrification](https://web.stevens.edu/ses/documents/fileadmin/documents/pdf/Oxford%20Journal.pdf), [private property](https://www.theguardian.com/commentisfree/2017/mar/27/western-idea-private-property-flawed-indigenous-peoples-have-it-right), [Drug wars](https://www.kcet.org/shows/socal-connected/the-rise-of-homelessness-in-the-1980s) and [epidemics](https://nhchc.org/wp-content/uploads/2019/08/nhchc-opioid-fact-sheet-august-2017.pdf), [erosion of social safety nets](https://scalar.usc.edu/works/growing-apart-a-political-history-of-american-inequality/a-tattered-safety-net-social-policy), [redlining](https://www.washingtonpost.com/business/2020/10/23/redlining-black-wealth/), and an increasingly [global economy](https://spokesman-recorder.com/2021/05/14/homelessness-grows-as-globalization-boosts-housing-costs/) are just a few of the many ways that these legacies play out in our daily lives. The fact is, this system thrives on our belief that we are just comfortable enough to justify upholding the status quo- forgoing everything we need in the moment in favor of the utopian future capitalism can provide. But this is an illusion.
 

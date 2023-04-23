@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "an LGBTQ+ issue"
-order: 8
+order: 9
 ---
 <strong>MYTH</strong>: With marriage equality, gay people no longer experience stigmas.
 

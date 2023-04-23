@@ -1,7 +1,7 @@
 ---
 layout: issue
-title:  "workers’ rights issue"
-order: 11
+title:  "a workers’ rights issue"
+order: 12
 ---
 <strong>MYTH</strong>: Homeless people refuse to work.
 

@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "a racial justice issue"
-order: 10
+order: 11
 ---
 <strong>MYTH</strong>: I see lots of white homeless people, therefore homelessness has nothing to do with racism.
 

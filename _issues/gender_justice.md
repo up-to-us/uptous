@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "a gender justice issue"
-order: 6
+order: 7
 ---
 <strong>MYTH</strong>: People experiencing homelessness are usually men.
 

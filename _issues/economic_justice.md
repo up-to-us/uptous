@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "an economic justice issue"
-order: 4
+order: 5
 ---
 <strong>MYTH</strong>: People become unhoused because they are lazy and don’t want to work
 

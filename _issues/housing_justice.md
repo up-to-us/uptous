@@ -1,7 +1,7 @@
 ---
 layout: issue
 title: "a housing justice issue"
-order: 7
+order: 8
 ---
 <strong>MYTH</strong>: Homeless people have special rights the rest of us don’t have. Beggars can’t be choosers, after all.
 

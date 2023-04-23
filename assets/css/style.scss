@@ -27,6 +27,7 @@ h2 {
   color: rgb(245, 239, 72);
   float: right;
   margin: 0;
+  text-decoration: underline;
 }
 
 h3 {
@@ -76,6 +77,7 @@ a {
   background-color: transparent;
   border: none;
   padding: 12px 0;
+  cursor: pointer;
 }
 
 .card-body {
@@ -109,18 +111,19 @@ a {
 
 .social {
   position: fixed;
-  bottom: 15px;
+  bottom: 45px;
   right: 15px;
+  width: 55px;
 }
 
 .social img {
   height: 2.5em;
-  margin-left: 1em;
+  margin-bottom: 1em;
 }
 
 .social [type=image] {
   height: 3.2em;
-  margin-left: 1em;
+  margin-left: 0em;
   vertical-align: top;
 }
 
@@ -212,6 +215,9 @@ textarea {
   .footer {
     max-width: 720px;
   }
+  .social {
+    bottom: 15px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -223,6 +229,19 @@ textarea {
 @media (min-width: 1200px) {
   .footer {
     max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .social {
+    width: auto;
+  }
+  .social img {
+    margin-left: 1em;
+  }
+  
+  .social [type=image] {
+    margin-left: 1em;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: issue
 title: "a family justice issue"
-order: 5
+order: 6
 ---
 <strong>MYTH</strong>: Unhoused people are at odds with hard working low income families.
 

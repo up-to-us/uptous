@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  "a public policy issue"
-order: 9
+order: 10
 ---
 <strong>MYTH</strong>: The real problem is we go too easy on these people. They need to be locked up, and forced into addiction treatment or mental health facilities.
 
