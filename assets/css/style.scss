@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #000;
 }
 
@@ -28,6 +28,7 @@ h2 {
   float: right;
   margin: 0;
   text-decoration: underline;
+  font-size: 1.8rem;
 }
 
 h3 {
@@ -110,20 +111,18 @@ a {
 }
 
 .social {
-  position: fixed;
-  bottom: 45px;
-  right: 15px;
-  width: 55px;
+  position: static;
+  text-align: center;
 }
 
 .social img {
   height: 2.5em;
-  margin-bottom: 1em;
+  margin: 0em 1em 1em 1em;
 }
 
 .social [type=image] {
   height: 3.2em;
-  margin-left: 0em;
+  margin-left: 1em;
   vertical-align: top;
 }
 
@@ -209,6 +208,22 @@ textarea {
   .footer {
     max-width: 540px;
   }
+  h1 { font-size: 4em;}
+  h2 { font-size: 2rem; }
+
+  .social {
+    position: fixed;
+    bottom: 45px;
+    right: 15px;
+    width: 55px;
+  }
+  .social img {
+    margin-left: 1em;
+  }
+  
+  .social [type=image] {
+    margin-left: 1em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -234,6 +249,9 @@ textarea {
 
 @media (min-width: 1400px) {
   .social {
+    position: fixed;
+    bottom: 45px;
+    right: 15px;
     width: auto;
   }
   .social img {
